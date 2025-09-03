@@ -1,2 +1,43 @@
-# assignmentqa-vcgamers
-This repository is use for technical test QA Engineer Intern in VC Gamers
+# Automation Testing - Playwright
+
+Repository ini berisikan mengenai hasil automation testing untuk halaman Gercep untuk website 
+VC Gamers yang ditujukan sebagai teknikal test QA Engineer Intern. 
+Dibawah ini dijelaskan mengenai tata cara penggunaannya. trims :)
+
+## Installation
+1. Clone Project
+```bash
+git clone https://github.com/damiri127/assignmentqa-vcgamers 
+```
+2. Insert & Open Project
+```bash
+cd assignmentqa-vcgamers
+code .
+```
+3. Update Dependecies
+```bash
+npm install
+```
+4. Install Playwright Browsers
+```bash
+npx playwright install
+```
+
+
+## Running Test
+1. Running All Test
+```bash
+npx playwright test
+```
+2. Running Specific Test
+```bash
+npx playwright test <test file name>
+```
+3. Running Test With UI
+```bash
+npx playwright test --ui
+```
+4. Running Test With Report (HTML)
+```bash
+npx playwright show-report
+```
