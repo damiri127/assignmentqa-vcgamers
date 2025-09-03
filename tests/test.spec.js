@@ -40,7 +40,6 @@ test.describe('Verify the Gercep Page', () => {
         // cari locator
         // const clickPage = page.getByRole('link', {name: 'Mobile Legends'});
         const clickPage = page.locator('a[href="/gercep/mobile-legends/top-up-game"]');
-        // await expect(clickPage).toBeVisible();
 
         // Klik hasil yang muncul
         await clickPage.click();

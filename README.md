@@ -1,7 +1,10 @@
 # Automation Testing - Playwright
 
 Repository ini berisikan mengenai hasil automation testing untuk halaman Gercep untuk website 
-VC Gamers yang ditujukan sebagai teknikal test QA Engineer Intern. 
+VC Gamers yang ditujukan sebagai teknikal test QA Engineer Intern. Dalam Projek ini Terdapat Test Case dengan ketentuan sebagai berikut:
+1. Open Page & Verify the page has a title
+2. Verify Search Bar Interaction
+3. Verify Click the result item
 Dibawah ini dijelaskan mengenai tata cara penggunaannya. trims :)
 
 ## Installation
@@ -41,3 +44,8 @@ npx playwright test --ui
 ```bash
 npx playwright show-report
 ```
+
+## Notes
+- Test sudah menggunakan semantic locators seperti getByRole, getByPlaceHolder supaya lebih stabil
+- Terdapat penggunaan timeout untuk memastikan halaman sudah berubah
+- Test Belum menggunakan konsep Page Object Model (POM)
